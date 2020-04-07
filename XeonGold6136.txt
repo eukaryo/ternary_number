@@ -1,0 +1,32 @@
+start: test_40bit
+negative control:
+elapsed time = 2068 ms
+
+naive version1:
+elapsed time = 49598 ms
+result (for validation) = 11733369585733206016
+
+naive version2:
+elapsed time = 33739 ms
+result (for validation) = 11733369585733206016
+
+SSE version:
+elapsed time = 7766 ms
+result (for validation) = 11733369585733206016
+
+start: test_64bit
+negative control:
+elapsed time = 2171 ms
+
+naive version1:
+elapsed time = 76116 ms
+result (for validation) = 17466470948147298304
+
+naive version2:
+elapsed time = 52443 ms
+result (for validation) = 17466470948147298304
+
+AVX2 version:
+elapsed time = 10315 ms
+result (for validation) = 17466470948147298304
+
